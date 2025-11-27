@@ -76,3 +76,4 @@ show('Can vote', canVote);
 
 // Also log to console for debugging
 console.log({ a, b, c, x, y, p, q, m, age, canVote });
+
