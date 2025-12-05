@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Swap Two Numbers</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            color: green;
+        }
+
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Swap Two Numbers withou using third variable and + - symbol</h1>
+    <script>
+        let a = +prompt("Enter a value")
+        let b = +prompt("Enter b value")
+
+        document.write(`<h2>Before Swap</h2>`)
+        document.write(`<h2> A : ${a}<br></h2>`)
+        document.write(`<h2> B : ${b}<br></h2>`)
+
+        a = a * b; 
+        b = a / b; 
+        a = a / b; 
+
+        document.write(`<h2>After Swap</h2>`)
+        document.write(`<h2> A : ${a}<br></h2>`)
+        document.write(`<h2> B : ${b}<br></h2>`)
+
+    </script>
+</body>
+
+</html>

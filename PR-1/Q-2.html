@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>calculation</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            color: green;
+        }
+
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Gross Salary Calculation</h1>
+    <script>
+        let salary = +prompt("Enter your salary")
+
+        let hra = (salary * 10) / 100;
+        let da = (salary * 5) / 100;
+        let ta = (salary * 8) / 100;
+
+        let gross = salary + hra + da + ta;
+
+        document.write(`<h2>Gross Salary :- ${gross}</h2>`)
+    </script>
+</body>
+
+</html>
